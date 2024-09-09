@@ -1,0 +1,76 @@
+*{
+  margin: 0%;
+  padding:0%;
+}
+body{
+  text-align: center;
+  background-color: peachpuff;
+}
+
+h2{
+  font-size: 7vmin;
+  margin-top: 3vmin;
+}
+.gameDiv{
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  padding-top: 6vmin;
+}
+.gameContainer{
+  height: 66vmin;
+  width: 66vmin;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 5vmin;
+}
+.box{
+  height: 18vmin;
+  width: 18vmin;
+  background-color:beige;
+  border-radius: 2vmin;
+  border: none;
+  box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  font-size: 8vmin;
+  color: brown;
+}
+.resetBtn{
+  height: 8vmin;
+  width: 20vmin;
+  background-color: brown;
+  color: wheat;
+  font-size: 4vmin;
+  border-radius: 3vmin;
+  margin-top: 2vmin;
+}
+
+.resultPanel{
+  height: 100vmin;
+  background-color: rgb(234, 131, 234);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chongoMsg{
+  position: absolute;
+  font-size: 12vmin;
+  padding: 2vmin;
+  background-color: rgb(73, 215, 66);
+  border-radius: 5vmin;
+
+}
+.hide{
+  display: none;
+}
+.newGameBtn{
+  margin-top: 60vmin;
+  height: 8vmin;
+  width: 20vmin;
+  background-color: brown;
+  color: wheat;
+  font-size: 3.3vmin;
+  border-radius: 3vmin;
+}
